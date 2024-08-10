@@ -5,7 +5,6 @@
 ///
 
 public struct MajorityElementTwo {
-  
   public func majorityElement(_ nums: [Int]) -> [Int] {
     var counts = [Int: Int]()
     nums.forEach { counts[$0] = (counts[$0] ?? 0) + 1 }
