@@ -1,5 +1,6 @@
 /// Question Link: https://leetcode.com/problems/max-consecutive-ones/
 /// Primary idea: Iterate the whole array and summarize consecutive ones locally and update globally encountering 0
+/// 
 /// Time Complexity: O(n), Space Complexity: O(1)
 ///
 
